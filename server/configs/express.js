@@ -17,6 +17,6 @@ app.use(function (req, res, next) {
   next()
 })
 
-require('./routes')(app)
+require('../src/express/routes')(app)
 
 module.exports = app
